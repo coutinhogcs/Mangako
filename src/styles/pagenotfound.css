@@ -1,0 +1,12 @@
+.container {
+    text-align: 'center';
+    padding: 2rem;
+}
+
+.not_found {
+    font-size: 8rem;
+}
+
+.not_found_paragrath {
+    font-size: 3rem;
+}
