@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+#root {
+  --primary-color: #FFC745;
+  --title-font: 'Roboto Mono', sans serif;
+  --paragrath-font: 'Poppins', sans serif;
+  --background-color: #000324;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: black;
+}
+
+h1{
+  font-family: var(--title-font);
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+p{
+  font-family: var(--paragrath-font);
+}
+
+.header__style{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: var(--background-color);
+}
+.logo__image{
+  width: 190px;
+}
+
+.menu__container{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.navigation__button{
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--paragrath-font);
+  font-size: 1rem;
+}
+
+.navigation__button:hover{
+  color: #fff2d2;
+}
+.input__search{
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: 2px solid var(--primary-color);
+}
+
+.search__container {
+  position: relative;
+  display: inline-block;
+}
+
+.input__search {
+  padding-right: 2rem; /* Espaço para o ícone */
+  padding-left: 1em;
+}
+
+.search__icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+input{
+  font-family: var(--paragrath-font);
+  background-color: var(--background-color);
+  color: #FFC745;
+
+}
