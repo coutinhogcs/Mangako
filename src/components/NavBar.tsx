@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import '../styles/navbar.css';
 export function NavBar() {
     return (
         <>
@@ -5,10 +7,13 @@ export function NavBar() {
                 <div className="div__Logo"><img src="logo_Mangako.png" alt="logo" className="logo__image" /></div>
 
                 <div className="menu__container">
-                    <a href="/" className="navigation__button">Home</a>
-                    <a href="/" className="navigation__button">Discord</a>
-                    <a href="/" className="navigation__button">Github</a>
-                    <a href="/" className="navigation__button">Mangá</a>
+                    <nav className="links__nav">
+                        <Link to={"/"} className="navigation__button">Home</Link>
+                        <Link to={'/manga'}  className="navigation__button">Mangás</Link>
+                        <Link to={'/about'} className="navigation__button">Sobre</Link>
+                        <Link to={'/contato'} className="navigation__button">Contato</Link>
+                        <Link to={'/discord'} className="navigation__button">Discord</Link>
+                    </nav>
                     <div className="search__container">
                     <input type="text" placeholder="Pesquisar..." className="input__search" />
                     <span className="search__icon">
