@@ -22,7 +22,6 @@ function App() {
         <Route path='/manga' element={<Manga />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
-      <HomePage />
       <Footer />
     </>
   )
