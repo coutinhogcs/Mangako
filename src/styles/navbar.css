@@ -4,9 +4,10 @@
   align-items: center;
   height: 2.5rem;
   padding: 1.25em;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
   background-color: var(--background-color);
+  gap: 40px;
 }
 .logo__image{
   width: 190px;
@@ -79,6 +80,9 @@ input{
     display: block;
   }
 
+  .logo__image{
+  width: 100px;
+}
   .menu__container {
     position: absolute;
     top: 100px;
@@ -107,7 +111,7 @@ input{
 
   .input__search {
     font-size: 0.9rem;
-    padding: 0.5rem 2rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
 
   .search__icon {
