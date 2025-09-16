@@ -1,5 +1,5 @@
 import './styles/pagenotfound.css';
-export default function PageNotFound() {
+export default function NotFound() {
   return (
     <div className="container" style={{ textAlign: 'center', padding: '2rem' }}>
       <h1 className="not_found">404</h1>
