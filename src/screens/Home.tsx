@@ -4,7 +4,7 @@ export default function HomePage() {
         <>
             <div className='main__container'>
                 <section className="welcome__container">
-                    <h1>Sejam bem vindos ao mais novo site de mangás!</h1>
+                    <h1 className='title__home'>Sejam bem vindos ao mais novo site de mangás!</h1>
                 </section>
             </div>
         </>
