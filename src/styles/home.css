@@ -24,11 +24,15 @@
     font-size: 2.25em;
     text-align: center;
 }
-.lancamento__title{
+.lancamento__container {
+        margin-top: 30px;
+    }
+.lancamento__title {
     margin-left: 5px;
     text-decoration: underline;
     font-size: 2.25rem;
 }
+
 .card__container {
     width: 100%;
     margin-top: 20px;
@@ -37,7 +41,7 @@
     justify-content: center;
 }
 
-.card__button{
+.card__button {
     font-family: var(--paragrath-font);
     font-weight: 300;
     font-size: 0.9rem;
@@ -48,10 +52,11 @@
     color: white;
 }
 
-.card__button:hover{
+.card__button:hover {
     background-color: var(--primary-color);
     color: var(--background-color);
 }
+
 .card {
     padding: 1%;
     display: flex;
@@ -73,11 +78,15 @@
         font-size: 1.7em;
     }
 
-    .card__container{
+    
+
+    .card__container {
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
     }
-    .card{
+
+    .card {
         width: 200px;
     }
 }
@@ -91,5 +100,5 @@
         font-size: 1.2em;
     }
 
-    
+
 }
