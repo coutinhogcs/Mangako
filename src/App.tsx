@@ -10,7 +10,6 @@ import Manga from './screens/Manga'
 import NotFound from './not-found'
 
 function App() {
-
   return (
     <>
       <NavBar />
