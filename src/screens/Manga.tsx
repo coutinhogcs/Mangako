@@ -1,4 +1,4 @@
-  function Manga(){
+  export default function Manga(){
     return(
         <>
         </>
