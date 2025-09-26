@@ -6,7 +6,7 @@ import HomePage from './screens/Home'
 import About from './screens/About'
 import Discord from './screens/Discord'
 import Contato from './screens/Contato'
-import Manga from './screens/Manga'
+// import Manga from './screens/Manga'
 import NotFound from './not-found'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/discord' element={<Discord />} />
         <Route path='/contato' element={<Contato />} />
-        <Route path='/manga' element={<Manga />} />
+        {/* <Route path='/manga' element={<Manga />} /> */}
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
